@@ -71,7 +71,7 @@ export const Portfolio = () => {
       </section>
 
       {/* Filter Section */}
-      <section className="py-16 bg-white sticky top-20 z-30 shadow-sm border-b border-slate-100">
+      <section className="py-16 bg-white shadow-sm border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="flex items-center gap-3 text-slate-900 font-bold text-xl">
             <Filter className="w-6 h-6 text-primary" />
