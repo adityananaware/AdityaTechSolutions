@@ -17,7 +17,7 @@ export const ThreeHero = () => {
     // Create floating shapes
     const shapes: THREE.Mesh[] = [];
     const geometries = [
-      new THREE.IcosahedronGeometry(1, 4),
+      new THREE.IcosahedronGeometry(1, 10),
       new THREE.TorusGeometry(0.7, 0.2, 48, 300),
       new THREE.OctahedronGeometry(1, 3),
       new THREE.TetrahedronGeometry(1, 2)
