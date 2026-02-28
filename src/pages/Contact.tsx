@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { Mail, Phone, MapPin, Send, CheckCircle2, MessageSquare, Clock, Globe } from 'lucide-react';
 import { useState, FormEvent, useRef } from 'react';
 import { TiltCard } from '../components/TiltCard';
+import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
   const [formState, setFormState] = useState<'idle' | 'sending' | 'success'>('idle');
