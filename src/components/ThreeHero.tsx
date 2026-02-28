@@ -30,7 +30,7 @@ export const ThreeHero = () => {
       opacity: 0.8
     });
 
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 15; i++) {
       const geometry = geometries[Math.floor(Math.random() * geometries.length)];
       const mesh = new THREE.Mesh(geometry, material);
       
