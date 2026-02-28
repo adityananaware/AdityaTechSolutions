@@ -24,12 +24,10 @@ export const ThreeHero = () => {
     ];
 
     const material = new THREE.MeshPhongMaterial({
-      color: 0x3b82f6,
+      color: 0x2563eb,
       wireframe: true,
       transparent: true,
-      opacity: 50,
-      emissive: 0x2563eb,
-      emissiveIntensity: 200
+      opacity: 0.3
     });
 
     for (let i = 0; i < 15; i++) {
@@ -55,12 +53,12 @@ export const ThreeHero = () => {
       shapes.push(mesh);
     }
 
-    const light = new THREE.DirectionalLight(0xffffff, 2);
+    const light = new THREE.DirectionalLight(0xffffff, 1);
     light.position.set(1, 1, 1).normalize();
     scene.add(light);
-    scene.add(new THREE.AmbientLight(0xffffff, 1.5));
-    
-    camera.position.z = 3;
+    scene.add(new THREE.AmbientLight(0x404040));
+
+    camera.position.z = 10;
 
     const animate = () => {
       requestAnimationFrame(animate);
