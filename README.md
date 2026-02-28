@@ -1,20 +1,127 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="[https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6](https://adityatechsolutions.vercel.app/)" />
-</div>
+# 🚀 Aditya Tech Solutions
 
-# Run and deploy your AI Studio app
+> Modern Web Development • AI Solutions • Data Science  
+> Building intelligent and beautiful digital solutions for the real world.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: [https://ai.studio/apps/885320ff-fb40-42c4-bc21-4e8fdf58ad4a
+## 🌐 Live Website
 
-## Run Locally](https://adityatechsolutions.vercel.app/)
+🔗 **Visit Website:**  
+https://adityatechsolutions.vercel.app
 
-**Prerequisites:**  Node.js
+---
 
+## ✨ About The Project
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**Aditya Tech Solutions** is a modern professional business website designed to showcase advanced technology services including:
+
+- 🌐 Web Development
+- 🤖 Artificial Intelligence Solutions
+- 📊 Data Science Projects
+- 📱 Modern Responsive Websites
+
+This website is designed with **modern UI/UX**, **3D animations**, and **professional business layout** to represent a real-world technology company.
+
+The goal of this project is to provide:
+
+✔ Professional Online Presence  
+✔ Client Attraction  
+✔ Business Promotion  
+✔ Portfolio Showcase  
+✔ Real Contact System
+
+---
+
+## 🎯 Features
+
+### 🎨 Modern UI Design
+- Clean professional layout
+- LED glowing effects
+- Smooth animations
+- Premium design
+
+### 🌐 Fully Responsive
+- Mobile Friendly
+- Tablet Friendly
+- Desktop Optimized
+
+### 🧠 Advanced Technology
+- 3D Background Animations
+- Interactive Elements
+- Smooth Scrolling
+- Hover Effects
+
+### 📬 Working Contact Form
+- Real Email Delivery
+- EmailJS Integration
+- Instant Message Sending
+
+### 📂 Portfolio Section
+Includes real projects:
+
+- 🤖 AI Academic Assistant
+- 🌾 Agricultural Crop Prediction ML Model
+- 💊 Medicine Reminder System
+- 📊 Data Science Dashboard
+
+---
+
+## 🛠️ Built With
+
+### Frontend
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+
+### Libraries
+
+- Three.js (3D Animations)
+- EmailJS (Contact Form)
+- Lucide Icons
+
+### Hosting
+
+- GitHub
+- Vercel
+
+---
+
+## 📸 Website Preview
+
+### Homepage
+
+Modern 3D animated hero section with glowing network background.
+
+### Portfolio
+
+Professional project showcase with filtering system.
+
+### Contact Page
+
+Real message sending system with email integration.
+
+---
+
+## 📬 Contact Information
+
+📧 Email:  
+notifiermedicine@gmail.com
+
+📱 WhatsApp:  
++91 8637750478
+
+🌍 Location:  
+Mumbai, Maharashtra, India
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/adityananaware/Aditya-Tech-Solutions.git
