@@ -6,9 +6,9 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/885320ff-fb40-42c4-bc21-4e8fdf58ad4a
+View your app in AI Studio: [https://ai.studio/apps/885320ff-fb40-42c4-bc21-4e8fdf58ad4a
 
-## Run Locally
+## Run Locally](https://adityatechsolutions.vercel.app/)
 
 **Prerequisites:**  Node.js
 
