@@ -224,11 +224,30 @@ export const Contact = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             className="text-center relative z-10"
           >
+
             <div className="w-24 h-24 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-6 glow-yellow-hover animate-bounce">
               <MapPin className="w-12 h-12" />
             </div>
-            <h3 className="text-slate-900 font-extrabold text-4xl mb-4 tracking-tight">Mumbai, Maharashtra, India</h3>
-            <p className="text-slate-500 font-bold text-xl uppercase tracking-widest">Global Headquarters (Remote)</p>
+
+            <h3 className="text-slate-900 font-extrabold text-4xl mb-4 tracking-tight">
+              Mumbai, Maharashtra, India
+            </h3>
+
+            <p className="text-slate-500 font-bold text-xl uppercase tracking-widest mb-8">
+              Global Headquarters (Remote)
+            </p>
+
+
+            <div className="max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-lg border">
+              <iframe
+                src="https://maps.google.com/maps?q=Mumbai&output=embed"
+                width="100%"
+                height="300"
+                style={{ border: 0 }}
+                loading="lazy"
+              ></iframe>
+            </div>
+
           </motion.div>
           {/* Mock Map Grid */}
           <div className="absolute inset-0 opacity-20 pointer-events-none">
