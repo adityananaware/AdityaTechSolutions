@@ -249,9 +249,13 @@ export const Contact = () => {
             </div>
 
           </motion.div>
-          {/* Mock Map Grid */}
-          <div className="absolute inset-0 opacity-20 pointer-events-none">
-            <div className="w-full h-full bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px]"></div>
+          {/* Google Map Background */}
+          <div className="absolute inset-0 pointer-events-none">
+            <iframe
+              src="https://maps.google.com/maps?q=Mumbai&output=embed"
+              className="w-full h-full border-0 opacity-60"
+              loading="lazy"
+            ></iframe>
           </div>
         </div>
       </section>
