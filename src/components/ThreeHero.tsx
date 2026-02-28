@@ -56,7 +56,7 @@ export const ThreeHero = () => {
     const light = new THREE.DirectionalLight(0xffffff, 1);
     light.position.set(1, 1, 1).normalize();
     scene.add(light);
-    scene.add(new THREE.AmbientLight(0x404040));
+    scene.add(new THREE.AmbientLight(0xffffff, 1.5));
 
     camera.position.z = 10;
 
