@@ -41,6 +41,14 @@ export const Portfolio = () => {
       desc: "A modern, responsive portfolio website built for a professional photographer to showcase high-resolution work.",
       tech: ["HTML5", "Tailwind CSS", "Framer Motion"]
     }
+    {
+      title: "Agricultural Crop Prediction ML Model",
+      category: "AI & Machine Learning",
+      icon: <Cpu className="w-5 h-5" />,
+      image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=2340",
+      desc: "Machine Learning model for agricultural crop prediction based on soil, climate, and environmental factors. Published research at Springer ICICCT 2025.",
+      tech: ["Python", "Scikit-learn", "Pandas", "Machine Learning"]
+    },
   ];
 
   const filteredProjects = filter === 'All' 
