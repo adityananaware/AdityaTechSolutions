@@ -64,8 +64,8 @@ export const ThreeHero = () => {
       requestAnimationFrame(animate);
       
       shapes.forEach((shape, i) => {
-        shape.rotation.x += 0.005;
-        shape.rotation.y += 0.005;
+        shape.rotation.x += 0.01;
+        shape.rotation.y += 0.01;
         shape.position.y += Math.sin(Date.now() * 0.001 + i) * 0.005;
       });
 
