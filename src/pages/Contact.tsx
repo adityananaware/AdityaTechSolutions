@@ -25,11 +25,11 @@ export const Contact = () => {
       setTimeout(() => setFormState('idle'), 3000);
       formRef.current?.reset();
     })
-  .catch(() => {
+  .catch((error) => {
+    console.log(error);
     alert("Message failed");
     setFormState('idle');
   });
-};
 
   return (
     <div className="pt-20">
