@@ -58,7 +58,7 @@ export const ThreeHero = () => {
     scene.add(light);
     scene.add(new THREE.AmbientLight(0xffffff, 1.5));
 
-    camera.position.z = 10;
+    camera.position.z = 6;
 
     const animate = () => {
       requestAnimationFrame(animate);
