@@ -29,7 +29,7 @@ export const Contact = () => {
     console.log(error);
     setFormState('error');
   });
-
+  };
   return (
     <div className="pt-20">
       {/* Header */}
