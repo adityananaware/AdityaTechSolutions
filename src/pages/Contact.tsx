@@ -237,17 +237,6 @@ export const Contact = () => {
               Global Headquarters (Remote)
             </p>
 
-
-            <div className="max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-lg border">
-              <iframe
-                src="https://maps.google.com/maps?q=Mumbai&output=embed"
-                width="100%"
-                height="300"
-                style={{ border: 0 }}
-                loading="lazy"
-              ></iframe>
-            </div>
-
           </motion.div>
           {/* Google Map Background */}
           <div className="absolute inset-0 pointer-events-none">
