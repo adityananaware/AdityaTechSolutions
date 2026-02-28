@@ -92,7 +92,16 @@ export const ThreeHero = () => {
         shape.rotation.y += 0.005;
         shape.position.y += Math.sin(Date.now() * 0.001 + i) * 0.005;
       });
+      net.rotation.z += 0.001;
 
+      const pos = net.geometry.attributes.position;
+
+      for (let i = 0; i < pos.count; i++) {
+        const y = Math.sin(i * 0.2 + Date.now() * 0.002) * 0.15;
+        pos.setZ(i, y);
+      }
+
+      pos.needsUpdate = true;
       renderer.render(scene, camera);
     };
 
