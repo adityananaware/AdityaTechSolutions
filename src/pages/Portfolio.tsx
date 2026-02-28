@@ -13,7 +13,7 @@ export const Portfolio = () => {
       title: "AI Academic Assistant",
       category: "AI & Machine Learning",
       icon: <Cpu className="w-5 h-5" />,
-      image: "https://www.shutterstock.com/image-photo/businessman-ai-chatbot-interface-coding-screen-2623558351?auto=format&fit=crop&q=80&w=2340",
+      image: "https://miro.medium.com/v2/resize:fit:1350/1*3gkMbg25VXoGO8HYu01LXw.jpeg?auto=format&fit=crop&q=80&w=2340",
       desc: "An intelligent assistant designed to help students organize their studies, summarize notes, and prepare for exams using NLP.",
       tech: ["Python", "TensorFlow", "React", "FastAPI"]
     },
