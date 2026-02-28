@@ -27,9 +27,9 @@ export const ThreeHero = () => {
       color: 0x3b82f6,
       wireframe: true,
       transparent: true,
-      opacity: 2,
+      opacity: 50,
       emissive: 0x2563eb,
-      emissiveIntensity: 2
+      emissiveIntensity: 200
     });
 
     for (let i = 0; i < 15; i++) {
