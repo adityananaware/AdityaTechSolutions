@@ -13,7 +13,7 @@ export const Portfolio = () => {
       title: "AI Academic Assistant",
       category: "AI & Machine Learning",
       icon: <Cpu className="w-5 h-5" />,
-      image: "https://media.licdn.com/dms/image/v2/D4D12AQEuo0he1pbtUQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1703887433438?e=2147483647&v=beta&t=S-skDfWr5dyCkGX2scDbNyM6v173CmbRWjhzTJ5J9A0?auto=format&fit=crop&q=80&w=2340",
+      image: "https://www.google.com/search?q=ai+academic+assitant&sca_esv=ba5ad9ab3d7481ac&udm=2&biw=1536&bih=742&sxsrf=ANbL-n4Nxn1EcTJNeTeCKfPzusrlMRwsxQ%3A1772304983254&ei=VzqjabSiD-CEvr0PyqS4uA0&ved=0ahUKEwj0qdfH7vySAxVggq8BHUoSDtcQ4dUDCBQ&uact=5&oq=ai+academic+assitant&gs_lp=Egtnd3Mtd2l6LWltZyIUYWkgYWNhZGVtaWMgYXNzaXRhbnRIiipQzgVY2ChwAXgAkAEAmAG1AaAB_BmqAQQwLjIwuAEDyAEA-AEBmAIRoALIFagCCsICChAjGCcYyQIY6gLCAgcQIxgnGMkCwgILEAAYgAQYsQMYgwHCAggQABiABBixA8ICBRAAGIAEwgIKEAAYgAQYQxiKBcICDRAAGIAEGLEDGEMYigXCAhAQABiABBixAxhDGIMBGIoFwgIEEAAYHsICBhAAGAgYHsICCBAAGAgYChgemAMYkgcEMS4xNqAHkluyBwQwLjE2uAewFcIHCDItMTUuMS4xyAdegAgA&sclient=gws-wiz-img?auto=format&fit=crop&q=80&w=2340",
       desc: "An intelligent assistant designed to help students organize their studies, summarize notes, and prepare for exams using NLP.",
       tech: ["Python", "TensorFlow", "React", "FastAPI"]
     },
