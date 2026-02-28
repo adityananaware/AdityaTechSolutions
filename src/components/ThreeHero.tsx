@@ -30,7 +30,7 @@ export const ThreeHero = () => {
       opacity: 0.8
     });
 
-    for (let i = 0; i < 30; i++) {
+    for (let i = 0; i < 50; i++) {
       const geometry = geometries[Math.floor(Math.random() * geometries.length)];
       const mesh = new THREE.Mesh(geometry, material);
       
@@ -58,14 +58,14 @@ export const ThreeHero = () => {
     scene.add(light);
     scene.add(new THREE.AmbientLight(0xffffff, 1.5));
 
-    camera.position.z = 6;
+    camera.position.z = 2;
 
     const animate = () => {
       requestAnimationFrame(animate);
       
       shapes.forEach((shape, i) => {
-        shape.rotation.x += 0.01;
-        shape.rotation.y += 0.01;
+        shape.rotation.x += 0.005;
+        shape.rotation.y += 0.005;
         shape.position.y += Math.sin(Date.now() * 0.001 + i) * 0.005;
       });
 
