@@ -133,7 +133,7 @@ export const Contact = () => {
                   Send a Message
                 </h3>
                 
-                <form onSubmit={handleSubmit} className="space-y-8 relative z-10">
+                <form ref={formRef} onSubmit={handleSubmit} className="space-y-8 relative z-10">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="space-y-2">
                       <label className="text-sm font-bold text-slate-700 uppercase tracking-widest ml-1">Full Name</label>
