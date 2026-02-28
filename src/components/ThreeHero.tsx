@@ -7,7 +7,7 @@ export const ThreeHero = () => {
   useEffect(() => {
     if (!containerRef.current) return;
 
-    const scene = new THREE.Scene();
+    scene.add(new THREE.AmbientLight(0x404040));
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
     const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
     
@@ -17,10 +17,10 @@ export const ThreeHero = () => {
     // Create floating shapes
     const shapes: THREE.Mesh[] = [];
     const geometries = [
-      new THREE.IcosahedronGeometry(1, 10),
-      new THREE.TorusGeometry(0.7, 0.2, 48, 300),
-      new THREE.OctahedronGeometry(1, 3),
-      new THREE.TetrahedronGeometry(1, 2)
+      new THREE.IcosahedronGeometry(1, 0),
+      new THREE.TorusGeometry(0.7, 0.2, 16, 100),
+      new THREE.OctahedronGeometry(1, 0),
+      new THREE.TetrahedronGeometry(1, 0)
     ];
 
     const material = new THREE.MeshPhongMaterial({
