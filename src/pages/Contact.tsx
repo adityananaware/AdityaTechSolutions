@@ -138,6 +138,7 @@ export const Contact = () => {
                     <div className="space-y-2">
                       <label className="text-sm font-bold text-slate-700 uppercase tracking-widest ml-1">Full Name</label>
                       <input 
+                        name="name"
                         type="text" 
                         required 
                         placeholder="John Doe"
@@ -147,6 +148,7 @@ export const Contact = () => {
                     <div className="space-y-2">
                       <label className="text-sm font-bold text-slate-700 uppercase tracking-widest ml-1">Email Address</label>
                       <input 
+                        name="email"
                         type="email" 
                         required 
                         placeholder="john@example.com"
@@ -157,7 +159,9 @@ export const Contact = () => {
                   
                   <div className="space-y-2">
                     <label className="text-sm font-bold text-slate-700 uppercase tracking-widest ml-1">Subject</label>
-                    <select className="w-full px-6 py-4 rounded-2xl bg-slate-50 border border-slate-100 focus:bg-white focus:border-primary focus:ring-4 focus:ring-primary/10 outline-none transition-all font-medium appearance-none glow-yellow-hover">
+                    <select 
+                      name="subject"
+                      className="w-full px-6 py-4 rounded-2xl bg-slate-50 border border-slate-100 focus:bg-white focus:border-primary focus:ring-4 focus:ring-primary/10 outline-none transition-all font-medium appearance-none glow-yellow-hover">
                       <option>Web Development</option>
                       <option>AI Solutions</option>
                       <option>Data Science</option>
@@ -168,6 +172,7 @@ export const Contact = () => {
                   <div className="space-y-2">
                     <label className="text-sm font-bold text-slate-700 uppercase tracking-widest ml-1">Message</label>
                     <textarea 
+                      name="message"
                       required 
                       rows={5} 
                       placeholder="How can we help you?"
