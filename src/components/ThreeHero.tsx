@@ -17,17 +17,19 @@ export const ThreeHero = () => {
     // Create floating shapes
     const shapes: THREE.Mesh[] = [];
     const geometries = [
-      new THREE.IcosahedronGeometry(1, 0),
-      new THREE.TorusGeometry(0.7, 0.2, 16, 100),
-      new THREE.OctahedronGeometry(1, 0),
-      new THREE.TetrahedronGeometry(1, 0)
+      new THREE.IcosahedronGeometry(1, 2),
+      new THREE.TorusGeometry(0.7, 0.2, 32, 200),
+      new THREE.OctahedronGeometry(1, 2),
+      new THREE.TetrahedronGeometry(1, 1)
     ];
 
     const material = new THREE.MeshPhongMaterial({
-      color: 0x2563eb,
+      color: 0x3b82f6,
       wireframe: true,
       transparent: true,
-      opacity: 0.8
+      opacity: 0.9,
+      emissive: 0x2563eb,
+      emissiveIntensity: 1.5
     });
 
     for (let i = 0; i < 15; i++) {
