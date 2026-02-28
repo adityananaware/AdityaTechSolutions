@@ -53,7 +53,7 @@ export const ThreeHero = () => {
       shapes.push(mesh);
     }
 
-    const light = new THREE.DirectionalLight(0xffffff, 1);
+    const light = new THREE.DirectionalLight(0xffffff, 2);
     light.position.set(1, 1, 1).normalize();
     scene.add(light);
     scene.add(new THREE.AmbientLight(0xffffff, 1.5));
