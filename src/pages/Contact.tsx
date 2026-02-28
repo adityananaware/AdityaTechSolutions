@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
   const [formState, setFormState] = useState<'idle' | 'sending' | 'success'>('idle');
-
+  const formRef = useRef<HTMLFormElement>(null);
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     setFormState('sending');
