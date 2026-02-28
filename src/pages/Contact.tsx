@@ -15,8 +15,8 @@ export const Contact = () => {
     setFormState('sending');
 
     emailjs.sendForm(
-      "service_f0p4x8f",
-      "template_0vz2ehn",
+      "service_vj8ht3o",
+      "template_9s3eumu",
       formRef.current,
       "kv6itcaIpTwgNUmOP"
     )
