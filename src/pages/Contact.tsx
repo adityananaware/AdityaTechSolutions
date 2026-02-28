@@ -9,15 +9,27 @@ export const Contact = () => {
   const formRef = useRef<HTMLFormElement>(null);
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
+
+    if (!formRef.current) return;
+
     setFormState('sending');
-    
-    // Simulate form submission
-    setTimeout(() => {
+
+    emailjs.sendForm(
+      "service_f0p4x8f",
+      "template_0vz2ehn",
+      formRef.current,
+      "kv6itcaIpTwgNUmOP"
+    )
+    .then(() => {
       setFormState('success');
-      // Reset after 3 seconds
       setTimeout(() => setFormState('idle'), 3000);
-    }, 1500);
-  };
+      formRef.current?.reset();
+    })
+  .catch(() => {
+    alert("Message failed");
+    setFormState('idle');
+  });
+};
 
   return (
     <div className="pt-20">
