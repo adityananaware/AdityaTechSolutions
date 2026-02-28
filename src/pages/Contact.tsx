@@ -190,16 +190,16 @@ export const Contact = () => {
                     {formState === 'sending' && <div className="w-8 h-8 border-4 border-white/30 border-t-white rounded-full animate-spin"></div>}
                     {formState === 'success' && <><CheckCircle2 className="w-6 h-6" /> Message Sent!</>}
                   </motion.button>
-                    {formState === 'error' && (
-                      <div className="mt-6 p-4 rounded-xl bg-red-50 border border-red-200 text-red-700 text-center font-medium">
-                        Message failed ❌ <br/><br/>
-                        Please contact us manually:
-                        <br/><br/>
-                        📧 notifiermedicine@gmail.com
-                        <br/>
-                        📱 WhatsApp: +91 8637750478
-                      </div>
-                    )}
+                  {formState === 'error' && (
+                    <div className="mt-6 p-4 rounded-xl bg-red-50 border border-red-200 text-red-700 text-center font-medium">
+                      Message failed ❌ <br/><br/>
+                      Please contact us manually:
+                      <br/><br/>
+                      📧 notifiermedicine@gmail.com
+                      <br/>
+                      📱 WhatsApp: +91 8637750478
+                    </div>
+                  )}
                 </form>
               </div>
             </TiltCard>
