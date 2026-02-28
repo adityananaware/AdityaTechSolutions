@@ -59,28 +59,6 @@ export const ThreeHero = () => {
     light.position.set(1, 1, 1).normalize();
     scene.add(light);
     scene.add(new THREE.AmbientLight(0xffffff, 1.5));
-
-    // Wireframe Net Background (Mat Style)
-    const netGeometry = new THREE.PlaneGeometry(
-      40,   // width
-      25,   // height
-      80,   // horizontal wires
-      60    // vertical wires
-    );
-
-    const netMaterial = new THREE.MeshBasicMaterial({
-      color: 0x2563eb,
-      wireframe: true,
-      transparent: true,
-      opacity: 0.35
-    });
-
-    const net = new THREE.Mesh(netGeometry, netMaterial);
-
-    net.position.z = -5; 
-    net.rotation.x = -0.6;
-
-    scene.add(net);
     
     camera.position.z = 3;
 
