@@ -50,11 +50,12 @@ export const ChatWidget = () => {
     setIsLoading(true);
 
     try {
-      // Access API key from process.env (defined in vite.config.ts)
-      const apiKey = process.env.GEMINI_API_KEY;
+      // Access API key from process.env (defined in vite.config.ts) or import.meta.env (Vite default)
+      const apiKey = (process.env.GEMINI_API_KEY || import.meta.env.VITE_GEMINI_API_KEY) as string;
       
-      if (!apiKey) {
-        throw new Error("Gemini API key is not configured.");
+      // Check if the key is missing or still set to the placeholder/undefined string
+      if (!apiKey || apiKey === 'undefined' || apiKey === 'MY_GEMINI_API_KEY' || apiKey.trim() === '') {
+        throw new Error("API key is missing. If you're on Vercel, ensure you've added VITE_GEMINI_API_KEY to your Environment Variables and redeployed.");
       }
 
       const ai = new GoogleGenAI({ apiKey });
@@ -92,7 +93,7 @@ export const ChatWidget = () => {
       const botMessage: Message = {
         id: (Date.now() + 1).toString(),
         text: error.message?.includes("API key") 
-          ? "I'm currently in demo mode. Please ensure the API key is configured to chat with me!" 
+          ? `I'm currently in demo mode. ${error.message}` 
           : "Sorry, I'm having trouble connecting. Please try again in a moment.",
         sender: 'bot',
         timestamp: new Date(),
