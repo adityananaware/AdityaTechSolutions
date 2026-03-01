@@ -10,44 +10,79 @@ export const Portfolio = () => {
 
   const projects = [
     {
-      title: "AI Academic Assistant",
+      title: "MindfulMate",
       category: "AI & Machine Learning",
       icon: <Cpu className="w-5 h-5" />,
-      image: "https://miro.medium.com/v2/resize:fit:1350/1*3gkMbg25VXoGO8HYu01LXw.jpeg?auto=format&fit=crop&q=80&w=2340",
-      desc: "An intelligent assistant designed to help students organize their studies, summarize notes, and prepare for exams using NLP.",
-      tech: ["Python", "TensorFlow", "React", "FastAPI"]
+      image: "https://images.unsplash.com/photo-1527137342181-19aab11a8ee1?auto=format&fit=crop&q=80&w=2340",
+      desc: "A student mental health companion designed to provide support and resources using AI-driven insights.",
+      tech: ["React", "AI", "Mental Health", "Tailwind"],
+      github: "https://github.com/adityananaware/mindfulmate-student-mental-health-companion.git",
+      live: "https://mindfulmate.vercel.app"
     },
     {
-      title: "Medicine Reminder App",
+      title: "EVOptiCharge",
+      category: "Web Development",
+      icon: <Layout className="w-5 h-5" />,
+      image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=2340",
+      desc: "Optimizing electric vehicle charging schedules and locations to improve efficiency and reduce costs.",
+      tech: ["JavaScript", "EV", "Optimization", "Maps API"],
+      github: "https://github.com/adityananaware/EVOptiCharge.git",
+      live: "https://adityananaware.github.io/EVOptiCharge"
+    },
+    {
+      title: "Quantum Powered Tomorrow",
+      category: "AI & Machine Learning",
+      icon: <Cpu className="w-5 h-5" />,
+      image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=2340",
+      desc: "Exploring the future of quantum computing and its potential applications in solving complex problems.",
+      tech: ["Quantum Computing", "Research", "Future Tech"],
+      github: "https://github.com/adityananaware/Quantum-Powered-Tomorrow.git",
+      live: "https://adityananaware.github.io/Quantum-Powered-Tomorrow"
+    },
+    {
+      title: "Crop Recommendation System",
+      category: "AI & Machine Learning",
+      icon: <Cpu className="w-5 h-5" />,
+      image: "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&q=80&w=2340",
+      desc: "Recommending the best crops based on soil and weather conditions using advanced machine learning algorithms.",
+      tech: ["Python", "ML", "Agriculture", "Scikit-Learn"],
+      github: "https://github.com/adityananaware/Crop-Recommendation-System.git"
+    },
+    {
+      title: "AI Agricultural Solution",
+      category: "AI & Machine Learning",
+      icon: <Cpu className="w-5 h-5" />,
+      image: "https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&q=80&w=2340",
+      desc: "Prototype development, business strategy, and financial modelling for an AI-powered agricultural solution.",
+      tech: ["AI", "Strategy", "Finance", "Python"],
+      github: "https://github.com/adityananaware/AI-Powered-Agricultural-Solution-Prototype-Development-Business-Strategy-and-Financial-Modelling.git"
+    },
+    {
+      title: "Medicine Notifier",
       category: "Web Development",
       icon: <Layout className="w-5 h-5" />,
       image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=2340",
-      desc: "A user-friendly web application for elderly patients to track their medication schedule with automated notifications.",
-      tech: ["React", "Node.js", "MongoDB", "PWA"]
+      desc: "A smart medicine notification system to ensure timely medication for patients and elderly care.",
+      tech: ["React", "Node.js", "Notifications", "PWA"],
+      github: "https://github.com/adityananaware/Medicine-Notifier.git"
     },
     {
-      title: "Data Science Dashboard",
+      title: "ML & Data Science Projects",
       category: "Data Science",
       icon: <Database className="w-5 h-5" />,
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2340",
-      desc: "A comprehensive business intelligence dashboard visualizing sales trends, customer behavior, and inventory levels.",
-      tech: ["Python", "Pandas", "Plotly", "Streamlit"]
+      desc: "A collection of machine learning and data science projects covering various domains and datasets.",
+      tech: ["Python", "ML", "Data Science", "Pandas"],
+      github: "https://github.com/adityananaware/Projects_ML_DataScience.git"
     },
     {
-      title: "Personal Portfolio Website",
-      category: "Web Development",
-      icon: <Code className="w-5 h-5" />,
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&q=80&w=2340",
-      desc: "A modern, responsive portfolio website built for a professional photographer to showcase high-resolution work.",
-      tech: ["HTML5", "Tailwind CSS", "Framer Motion"]
-    },
-    {
-      title: "Agricultural Crop Prediction ML Model",
-      category: "AI & Machine Learning",
-      icon: <Cpu className="w-5 h-5" />,
-      image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=2340",
-      desc: "Machine Learning model for agricultural crop prediction based on soil, climate, and environmental factors. Published research at Springer ICICCT 2025.",
-      tech: ["Python", "Scikit-learn", "Pandas", "Machine Learning"]
+      title: "EV Market Analysis",
+      category: "Data Science",
+      icon: <Database className="w-5 h-5" />,
+      image: "https://images.unsplash.com/photo-1502637098811-ad9526f2b65c?auto=format&fit=crop&q=80&w=2340",
+      desc: "Comprehensive market analysis and entry strategy for the electric vehicle industry using data-driven insights.",
+      tech: ["Market Analysis", "Strategy", "Data Science", "Visualization"],
+      github: "https://github.com/adityananaware/Electric-Vehicle-Market-Analysis-and-Entry-Strategy.git"
     }
   ];
 
@@ -79,7 +114,7 @@ export const Portfolio = () => {
       </section>
 
       {/* Filter Section */}
-      <section className="py-16 bg-white shadow-sm border-b border-slate-100">
+      <section className="py-16 bg-white sticky top-20 z-30 shadow-sm border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="flex items-center gap-3 text-slate-900 font-bold text-xl">
             <Filter className="w-6 h-6 text-primary" />
@@ -133,23 +168,33 @@ export const Portfolio = () => {
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-10">
                         <div className="flex gap-4 mb-6 translate-y-10 group-hover:translate-y-0 transition-transform duration-500">
-                          <motion.button 
-                            whileHover={{ scale: 1.1 }}
-                            whileTap={{ scale: 0.9 }}
-                            className="w-14 h-14 bg-white text-primary rounded-2xl flex items-center justify-center glow-green-hover"
-                          >
-                            <ExternalLink className="w-7 h-7" />
-                          </motion.button>
-                          <motion.button 
-                            whileHover={{ scale: 1.1 }}
-                            whileTap={{ scale: 0.9 }}
-                            className="w-14 h-14 bg-white text-slate-900 rounded-2xl flex items-center justify-center glow-green-hover"
-                          >
-                            <Github className="w-7 h-7" />
-                          </motion.button>
+                          {project.live && (
+                            <motion.a 
+                              href={project.live}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              whileHover={{ scale: 1.1 }}
+                              whileTap={{ scale: 0.9 }}
+                              className="w-14 h-14 bg-white text-primary rounded-2xl flex items-center justify-center glow-green-hover"
+                            >
+                              <ExternalLink className="w-7 h-7" />
+                            </motion.a>
+                          )}
+                          {project.github && (
+                            <motion.a 
+                              href={project.github}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              whileHover={{ scale: 1.1 }}
+                              whileTap={{ scale: 0.9 }}
+                              className="w-14 h-14 bg-white text-slate-900 rounded-2xl flex items-center justify-center glow-green-hover"
+                            >
+                              <Github className="w-7 h-7" />
+                            </motion.a>
+                          )}
                         </div>
                         <p className="text-white/80 font-medium translate-y-10 group-hover:translate-y-0 transition-transform duration-500 delay-100">
-                          Click to view project details and source code.
+                          {project.live || project.github ? "Click to view project details and source code." : "Details coming soon."}
                         </p>
                       </div>
                     </div>
