@@ -79,7 +79,7 @@ export const Portfolio = () => {
       title: "EV Market Analysis",
       category: "Data Science",
       icon: <Database className="w-5 h-5" />,
-      image: "https://images.unsplash.com/photo-1502637098811-ad9526f2b65c?auto=format&fit=crop&q=80&w=2340",
+      image: "https://drive.google.com/file/d/11QgxqMMm4kjVxX9hC7U2HY2ssD05ArfM/view?usp=drive_link",
       desc: "Comprehensive market analysis and entry strategy for the electric vehicle industry using data-driven insights.",
       tech: ["Market Analysis", "Strategy", "Data Science", "Visualization"],
       github: "https://github.com/adityananaware/Electric-Vehicle-Market-Analysis-and-Entry-Strategy.git"
