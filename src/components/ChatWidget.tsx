@@ -36,13 +36,14 @@ export const ChatWidget = () => {
         headers:{
           "Content-Type":"application/json"
         },
-        body:JSON.stringify({
+          body:JSON.stringify({
           contents:[
-            {
-              parts:[
-                { text:userMessage }
-              ]
-            }
+          {
+          role:"user",
+          parts:[
+          { text:userMessage }
+          ]
+          }
           ]
         })
       }
