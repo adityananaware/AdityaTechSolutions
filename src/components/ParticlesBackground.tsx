@@ -50,7 +50,7 @@ export const ParticlesBackground = () => {
             color: "#2563eb",
             distance: 150,
             enable: true,
-            opacity: 0.2,
+            opacity: 1,
             width: 1,
           },
           move: {
