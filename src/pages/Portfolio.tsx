@@ -10,10 +10,10 @@ export const Portfolio = () => {
 
   const projects = [
     {
-      title: "MindfulMate",
+      title: "MindfulMate AI",
       category: "AI & Machine Learning",
       icon: <Cpu className="w-5 h-5" />,
-      image: "https://images.unsplash.com/photo-1527137342181-19aab11a8ee1?auto=format&fit=crop&q=80&w=2340",
+      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=800",
       desc: "A student mental health companion designed to provide support and resources using AI-driven insights.",
       tech: ["React", "AI", "Mental Health", "Tailwind"],
       github: "https://github.com/adityananaware/mindfulmate-student-mental-health-companion.git",
@@ -79,10 +79,105 @@ export const Portfolio = () => {
       title: "EV Market Analysis",
       category: "Data Science",
       icon: <Database className="w-5 h-5" />,
-      image: "https://www.freepik.com/free-photo/electric-vehicle-charger-plug-with-digital-display_89656655.htm#fromView=keyword&page=1&position=2&uuid=aec7516b-0b16-4a75-a2f9-3fac0ebc0da4&query=Ev+market?auto=format&fit=crop&q=80&w=2340",
+      image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=800",
       desc: "Comprehensive market analysis and entry strategy for the electric vehicle industry using data-driven insights.",
       tech: ["Market Analysis", "Strategy", "Data Science", "Visualization"],
       github: "https://github.com/adityananaware/Electric-Vehicle-Market-Analysis-and-Entry-Strategy.git"
+    },
+    {
+      title: "WattWise Synergy",
+      category: "Web Development",
+      icon: <Layout className="w-5 h-5" />,
+      image: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&q=80&w=2340",
+      desc: "A professional website for WattWise Synergy, equipping electrical engineers with design skills.",
+      tech: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/wattwisesynergy/Vesperr/",
+      live: "https://wattwisesynergy.github.io/Vesperr/"
+    },
+    {
+      title: "Dish Discover",
+      category: "Web Development",
+      icon: <Layout className="w-5 h-5" />,
+      image: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?auto=format&fit=crop&q=80&w=2340",
+      desc: "A meal recipe finder that suggests dishes based on the ingredients you have on hand.",
+      tech: ["HTML", "CSS", "JavaScript", "API"],
+      github: "https://github.com/adityananaware/meal-recipe/",
+      live: "https://adityananaware.github.io/meal-recipe/"
+    },
+    {
+      title: "Spotify Clone",
+      category: "Web Development",
+      icon: <Layout className="w-5 h-5" />,
+      image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80&w=2340",
+      desc: "A Spotify-themed music application with playlist management and audio playback.",
+      tech: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/adityananaware/Spotifyclone/",
+      live: "https://adityananaware.github.io/Spotifyclone/"
+    },
+    {
+      title: "Stock Fundamentals Analyzer",
+      category: "Web Development",
+      icon: <Layout className="w-5 h-5" />,
+      image: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&q=80&w=800",
+      desc: "Analyzes stock health by evaluating fundamental data points entered by the user.",
+      tech: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/adityananaware/Stock-Analyzer/",
+      live: "https://adityananaware.github.io/Stock-Analyzer/"
+    },
+    {
+      title: "Diabetes Prediction",
+      category: "AI & Machine Learning",
+      icon: <Cpu className="w-5 h-5" />,
+      image: "https://images.unsplash.com/photo-1631815587646-b85a1bb027e1?auto=format&fit=crop&q=80&w=2340",
+      desc: "Machine learning model to predict the likelihood of diabetes based on medical parameters.",
+      tech: ["Python", "ML", "Healthcare", "SVM"],
+      github: "https://github.com/adityananaware/Diabetes-Prediction"
+    },
+    {
+      title: "Car Price Predictor",
+      category: "AI & Machine Learning",
+      icon: <Cpu className="w-5 h-5" />,
+      image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=2340",
+      desc: "Predicting used car prices using regression models based on mileage, year, and brand.",
+      tech: ["Python", "Regression", "Data Analysis"],
+      github: "https://github.com/adityananaware/Car-Price-Predictor"
+    },
+    {
+      title: "IPL Winning Prediction",
+      category: "Data Science",
+      icon: <Database className="w-5 h-5" />,
+      image: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&q=80&w=2340",
+      desc: "An ML-based system to predict the winning probability of IPL teams during a match.",
+      tech: ["Python", "ML", "Cricket", "Pandas"],
+      github: "https://github.com/adityananaware/IPL-Winning-Team-Prediction"
+    },
+    {
+      title: "Mobile Price Prediction",
+      category: "AI & Machine Learning",
+      icon: <Cpu className="w-5 h-5" />,
+      image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=2340",
+      desc: "Predicting mobile phone price ranges based on hardware specifications.",
+      tech: ["Python", "ML", "Classification"],
+      github: "https://github.com/adityananaware/Mobile-Price-Prediction"
+    },
+    {
+      title: "Breast Cancer Prediction",
+      category: "AI & Machine Learning",
+      icon: <Cpu className="w-5 h-5" />,
+      image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=2340",
+      desc: "Diagnostic tool for breast cancer detection using machine learning classification.",
+      tech: ["Python", "ML", "Healthcare", "Random Forest"],
+      github: "https://github.com/adityananaware/Breast-Cancer-Prediction"
+    },
+    {
+      title: "Personal Portfolio Website",
+      category: "Web Development",
+      icon: <Layout className="w-5 h-5" />,
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2340",
+      desc: "A modern, responsive portfolio website built with React, Tailwind CSS, and Framer Motion to showcase technical projects and skills.",
+      tech: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
+      github: "https://github.com/adityananaware",
+      live: "https://ais-pre-4x2ktpcw33gcahbq7y4nwf-425941339839.asia-southeast1.run.app"
     }
   ];
 
@@ -114,7 +209,7 @@ export const Portfolio = () => {
       </section>
 
       {/* Filter Section */}
-      <section className="py-16 bg-white sticky top-20 z-30 shadow-sm border-b border-slate-100">
+      <section className="py-16 bg-white border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="flex items-center gap-3 text-slate-900 font-bold text-xl">
             <Filter className="w-6 h-6 text-primary" />
