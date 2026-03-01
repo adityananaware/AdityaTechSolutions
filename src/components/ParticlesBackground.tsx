@@ -71,7 +71,7 @@ export const ParticlesBackground = () => {
             value: 80,
           },
           opacity: {
-            value: 0.3,
+            value: 1,
           },
           shape: {
             type: "circle",
